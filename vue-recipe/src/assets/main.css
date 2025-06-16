@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
+
+}
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto; /* ✅ centers the layout */
+  padding: 0; /* optional horizontal padding */
+  font-weight: normal;
+
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
