@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/be82705223.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Expense Details</title>
+  </head>
+  <body>
+    <div class="main">
+
+    <div>
+        <h2>Expense Details in Rupee</h2>
+
+      <div class="container">
+          <h4>Total Balance</h4>
+          <h1 id="bankBalance">
+            Rs.
+            0.00</h1>
+
+          <div class="Credit-Debit-container">
+            <div>
+              <h4>Income</h4>
+              <p id="money_Credit">
+                Rs.
+                0.00</p>
+            </div>
+            <div>
+              <h4>Expense</h4>
+              <p id="money_Debit">
+                Rs.
+                0.00</p>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <div>
+      <h3>Add new transaction</h3>
+      <form id="form" action="">
+        <div>
+          <label for="text">Text:</label><br>
+          <input type="text" id="text" placeholder="Enter text..." autocomplete="off"/>
+        </div><br>
+        <div>
+          <label for="amount"
+            >Select Amount <br />
+            (Credit/Debit Option)</label
+          ><br>
+          <select id="stateAmount">
+            <option value="">Select</option>
+            <option value="Credit">Credit</option>
+            <option value="Debit">Debit</option>
+          </select><br><br>
+          <label for="text">Enter Amount:</label><br>
+          <input type="number" id="amount" placeholder="Enter amount..." />
+        </div>
+        <button class="btn">Add transaction</button>
+      </form>
+    </div>
+
+    </div>
+    <div class="balanceList">
+      <h3>
+        Transaction List
+      </h3>
+      <ul id="dataList" class="list">
+
+      </ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

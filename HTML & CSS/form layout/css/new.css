@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+   max-width:1200px;
+   margin: auto;
+
+}
+.head{
+    width: 100%;
+    margin: auto;
+}
+h1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 15px;
+}
+form{
+    margin: 10px;
+    width: 100%;
+    margin: 15px;
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+
+}
+.clearfix{
+    clear: both;
+}
+label{
+    width: 30%;
+    float: left;
+    margin-bottom: 15px;
+    padding: 5px;
+
+
+
+}
+input{
+    width: 70%;
+    float: right;
+    padding: 4px;
+    margin-bottom: 15px;
+
+}
+.radiolable{
+    float: none;
+    width: auto;
+}
+.radioinput{
+    float: none;
+    width: auto;
+}
+.row2{
+    float: right;
+    margin-top: 20px;
+    width: 70%;
+}
+.otherdiv{
+    width: 100%;
+}
+.address{
+    width: 95%;
+}
+.state{
+    float: left;
+    width: 60%;
+}
+.zip{
+    float: right;
+    width: 40%;
+    
+}
+.lablestate{
+    width: 20%;
+}
+.inputstate{
+
+    width: 50%;
+}
+.lablezip{
+    width: 30%;
+}
+.inputzip{
+width: 57%;
+}
+.end{
+    width: 100%;
+    margin: auto;
+}
+p{
+   font-size: 20px; 
+}

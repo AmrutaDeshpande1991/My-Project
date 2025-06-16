@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+/* header */
+.head{
+    background-color: #544c46;
+   width: 100%;
+    position:absolute;
+    border-top:2px solid #de9900;
+    opacity: 0.8;
+    z-index: 1;
+}
+.logo{
+    position: absolute;
+    top: 2px;
+}
+.logo img{
+    width: 75%;
+}
+
+.text-1 a{
+    color: white;
+}
+.text-1 a:hover{
+    border-bottom: green;
+
+}
+/* section-1 */
+.section1{
+    position: relative;
+    
+}
+.section1 img{
+        width: 100%;
+        /* height: 100vh; */
+    }
+.button1{
+    border-radius: 7px;
+    padding: 8px 32px;
+    margin-top: 29px;
+    margin-left: 8px;
+    font-size: 14px;
+    background-color: #de9900;
+}
+.my-form{
+    max-width: 1140px;
+    position: absolute;
+    bottom: 30px;
+   border-radius: 18px;
+   padding: 40px;
+   color: white;
+   background:#0000006b;
+   
+}
+
+/* section 2 */
+.section2{
+background-color: black;
+
+padding: 40px 0;
+}
+.box1{
+    position: relative;
+    text-align: center;
+    border: 1px solid #de9900;
+}
+.box1 h1{
+    color: #de9900;
+    font-size: 75px;
+}
+.over h5{
+    color: #de9900;
+}
+.over p{
+    color: beige;
+}
+.over{
+    background-color: black;
+    position: relative;
+    top:-40px;
+}
+/* section 3 */
+.section3{
+    background-color: black;
+    padding: 55px 0;
+}
+.imgdiv3 , .imgdiv3-1{
+    width: 100%;
+}
+/* use of before and after for img1 */
+.img1::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 30%;
+    top: -11%;
+    right: 0;
+    background: #de9900;
+    
+}
+.img1::after{
+    content: '';
+    position: absolute;
+    width: 36%;
+    height: 2px;
+    top: -13px;
+    left: 70%; 
+    background: #de9900;
+}
+.img1-1::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 40%;
+    top: 182px;
+    left: 22px;
+    background: #de9900;
+    
+}
+.img1-1::after{
+    
+    content: '';
+    position: absolute;
+    width: 133px;
+    left: 8px;
+    top: 93%;
+    height: 2px;
+   
+    
+    background: #de9900;
+}
+
+
+
+
+
+/* use of before and after for img2 */
+.img2::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 33%;
+    top: 80%;
+    left: -1px;
+    background: #de9900;
+    
+}
+.img2::after{
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 2px;    
+    top: 104%;
+    left: -10%;
+    background: #de9900;
+}
+.img1-2::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 30%;
+    top: -2%;
+    right: 21px;
+    background: #de9900;
+    
+}
+.img1-2::after{
+    content: '';
+    position: absolute;
+    width: 36%;
+    height: 2px;
+    top: 6px;
+    left: 61%;
+    background: #de9900;
+}
+
+.textbox3{
+    text-align: center;
+}
+    
+
+.textbox3 h2{
+    color: #de9900;
+}
+.textbox3 p{
+    color: rgb(230, 230, 213);
+    
+}
+.btn3{
+    color: white;
+}
+.btn3-1{
+background: transparent;
+border: 1px solid #de9900;
+color: #de9900;
+margin-left: 30px;
+}
+
+/* section 4 */
+.section4{
+    background-color: black;
+}
+.imgdiv4{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.scrollimg{
+    width:100%;
+    position: relative;
+}
+.scrollimg p{
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    bottom: -12px;
+    background: rgb(219 211 211 / 28%);
+    color: white;
+    text-align: center;
+}
+
+.scrollimg img{
+    width: 100%;
+    /* height: 50vh;
+    object-fit: cover; */
+   
+}
+.box4::before{
+    content: "";
+    position: absolute;
+    width: 92%;
+    height: 82%;
+    left: 10px;
+    top: 8px;
+    border: 1px solid white;
+}
+
+/* section 5 */
+
+.section5{
+    background-color: black;
+    padding: 50px 0;
+}
+.section5 img{
+    width: 100%;
+}
+
+/* section 6 */
+.section6{
+    padding: 80px 0;
+    background-image: url(../Image/bg2.jpeg);
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;   
+    
+}
+.textdiv6{
+    text-align: center;
+    color: white;
+    background: transparent;
+}
+.heading1{
+    color: #de9900;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgb(0, 13, 255), 2px 2px 5px rgb(255, 55, 0), 2px 2px 7px red;
+}
+.line1{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgb(0, 255, 30), 2px 2px 5px red, 2px 2px 7px rgb(26, 255, 0);
+}
+.line2{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgb(0, 255, 30), 2px 2px 5px red, 2px 2px 7px rgb(26, 255, 0);
+}
+.fa-solid {
+    font-size: 25px;
+    color: black;
+}
+.line3{
+    color: #0a0909;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(0, 255, 30), 2px 2px 5px red, 2px 2px 7px rgb(26, 255, 0);
+}
+/* .round{
+    width: 100%;
+} */
+.roundimg{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.round{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#slide2 .owl-item img {
+   
+    width: 80%;
+}
+
+
+/* section 7 */
+.section7{
+    background-color: black;
+}
+/* section 8 */
+.section8{
+    background-color: black;
+    
+    background-image: url(../Image/bg3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;    
+
+}
+.section8 h4{
+    color: #de9900;
+}
+.section8 a{
+    color: white;
+    font-size: 18px;
+
+}
+.section8 a:hover{
+    text-decoration: none;
+   
+}
+
+.section8 ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+.section8 ul li a:hover{
+border-bottom: 2px solid #de9900;
+color: #4300de;
+}
+.section8 .row a:hover{
+    border-bottom: 2px solid #de9900;
+color: #4300de;
+}

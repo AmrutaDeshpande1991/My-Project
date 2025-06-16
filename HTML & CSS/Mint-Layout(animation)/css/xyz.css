@@ -1,0 +1,67 @@
+.imgdiv4 img{
+    width: 30%;
+}
+
+.boxdiv4{
+    width: 30%;
+    padding: 60px 25px 70px 25px;
+    background: green;
+    color: white;
+     
+    /* position: absolute;
+  
+    top:30%;
+    left: 20%;
+    padding: 20px;
+
+     */
+    /* background-image: url(../images/images5.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px; */
+}
+.boxdiv4 h2{
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+}
+.boxdiv4 p{
+    margin: 10px 0 120px 0;
+}
+.btn5{
+    border: 2px inset white;
+    padding: 15px 10px 15px 10px;
+    color: whitesmoke;
+
+}
+.part4{
+    /* position: relative; */
+    background-color: aliceblue;
+}
+.banner4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+
+    justify-content:space-between;
+    top: 30%;
+    right: 10%;
+}
+.textbox1{
+    background-color: white;
+    border: solid;
+    margin-left: 80px;
+}
+.textbox1 img{
+    width: 40%;
+    padding: 10px;
+}
+.textbox1 h2{
+    padding: 10px;
+}
+.textbox1 p{
+    padding:5px 10px 20px 10px;
+}
+.textbox1 a{
+    text-decoration:none;
+    color: black;
+}

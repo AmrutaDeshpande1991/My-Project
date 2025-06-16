@@ -1,0 +1,315 @@
+ @media screen and(max-width: 1024px){}
+
+
+
+@media screen and (max-width: 668px) {
+    .img1::before{
+        height: 14%;
+        top: -6%;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+   .container{
+    max-width: 1024px;
+   } 
+   .head {
+    position: absolute;
+    background-color: #544c46;
+    width: 100%;
+   
+    border-top: 2px solid #de9900;
+    
+    z-index: 1;
+}
+.logo {
+    position: initial;
+    width: 18%;
+}
+.logo img{
+width: 100%;
+}
+.navbar-toggler {
+   
+    background-color: #de9900; 
+    border: 1px solid #de9900;
+    /* /* border-radius: 0.25rem; */
+
+}
+.my-form {
+    max-width: 1024px;
+    position: initial;  
+    padding: 10px 0px;
+    margin: 10px 0;
+    border-radius: 0;
+   
+}
+.button1 {
+    border-radius: 0;
+    padding: 8px 10px;
+    margin-top: 29px;
+    margin-left: 0;
+    
+}
+.imgdiv3, .imgdiv3-1 {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.img1::before {
+    height: 26%;
+    top: -8%;
+    right: 24%;
+}
+.img1::after {
+   
+    width: 18%;
+    height: 2px;
+    top: -13px;
+    left: 62%;
+}
+.img1-1::before {
+    
+    width: 2px;
+    height: 28%;
+    top: 72%;
+    left: 27%;
+ }
+    .img1-1::after {
+        
+        width: 133px;
+        left: 26%;
+        top: 97%;
+        height: 2px;
+        
+    }
+    .img1-2::after {
+       
+        width: 18%;
+        height: 3px;
+        top: 7px;
+        left: 56%;
+        
+    }
+    .img1-2::before {
+        
+        width: 2px;
+        height: 29%;
+        top: -1%;
+        right: 27%;
+        
+    }
+    .img2::after {
+        width: 19%;
+        height: 2px;
+        top: 103%;
+        left: 20%;
+    }
+    .img2::before {
+        
+        width: 2px;
+        height: 29%;
+        top: 80%;
+        left: 24%;
+    }
+} 
+@media screen and (max-width: 767px) {
+.container{
+    max-width: 800px;
+}
+.head {
+    position: absolute;
+    background-color: #544c46;
+    width: 100%;
+   
+    border-top: 2px solid #de9900;
+    
+    z-index: 1;
+}
+.logo {
+    position: initial;
+    width: 18%;
+}
+.logo img{
+width: 100%;
+}
+.navbar-toggler {
+   
+    background-color: #de9900; 
+    border: 1px solid #de9900;
+   
+
+}
+.my-form {
+    max-width: 800px;
+    position: initial;  
+    padding: 10px 0px;
+    margin: 10px 0;
+    border-radius: 0;
+    font-size: 12px;
+   
+}
+.button1 {
+    border-radius: 0;
+    padding: 8px 10px;
+    margin-top: 26px;
+    margin-left: 0;
+    font-size: 12px;
+    
+}
+.imgdiv3, .imgdiv3-1 {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.img1-1::before {
+    height: 27%;
+    top: 280px;
+    left: 186px;
+}
+.img1-1::after {
+    width: 109px;
+    left: 172px;
+    top: 96%;
+}
+.img1::before {
+    height: 34%;
+    top: -33px;
+    width: 2px;
+    right: 153px;
+}
+.img1::after {
+    
+    width: 22%;
+    height: 2px;
+    top: -13px;
+    left: 59%;
+    
+}
+.img1-2::before {
+    height: 30%;
+    right: 28%;
+    top: 2px;
+}
+.img1-2::after {
+    
+    width: 19%;
+    height: 3px;
+    top: 8px;
+    left: 54%;
+   
+}
+.img2::after {
+    left: 21%;
+    top: 103%;
+    width: 21%;
+}
+.img2::before {
+    height: 32%;
+    top: 76%;
+    left: 24%;
+}
+
+}
+    
+
+
+
+
+@media screen and (max-width: 525px) {
+    .section1 img {
+        width: 100%;
+        height: 50vh;
+    }
+     
+    .my-form
+    {
+        position:initial;             
+        padding: 25px 0;
+        color: white;
+        margin: 15px 0;
+        border-radius: 0;
+        background:#0000006b;
+    }
+    .imgdiv3, .imgdiv3-1 {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .img1::before {
+        
+        height: 20%;
+        top: -1%;
+        right: 56px;      
+    }
+    .img1::after {
+        
+        width: 19%;
+        
+        top: 9px;
+        left: 70%;
+       
+    }
+    .img1-1::before {
+        height: 26%;
+        top: 267px;
+        left: 41px;
+    }
+    .img1-1::after {
+        
+        width: 87px;
+        left: 27px;
+        top: 102%;
+        
+    }
+    .textbox3 {
+        text-align: justify;
+        margin: 20px 0;
+    }
+    .textbox3 h2 {
+        text-align: center;}
+
+        .btn3 , .btn3-1 {
+            margin: auto;
+            display: block;
+        }
+
+   .img1-2::before {
+                
+     height: 21%;
+    top: -7%;
+    right: 38px;}
+
+    .img1-2::after {
+        
+        width: 23%;
+        
+        top: -9px;
+        left: 70%;
+       
+    }     
+    .img2::before {
+        
+        height: 20%;
+        top: 80%;
+        left: 55px;
+        
+    }         
+    .img2::after {
+            
+            width: 20%;
+            
+            top: 97%;
+            left: 12%;
+            
+        }
+
+
+}
