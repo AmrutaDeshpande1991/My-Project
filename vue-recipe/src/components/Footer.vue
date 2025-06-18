@@ -23,7 +23,7 @@
           <v-btn
             icon
             variant="text"
-            href="https://github.com/deshpandeamruta1991"
+            href="https://github.com/AmrutaDeshpande1991"
             target="_blank"
             class="mx-1"
           >
