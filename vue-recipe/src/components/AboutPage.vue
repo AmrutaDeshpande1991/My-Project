@@ -108,11 +108,11 @@
               <span>
                 <v-icon color="grey-darken-2" class="me-2">mdi-github</v-icon>
                 <a
-                  href="https://github.com/deshpandeamruta1991"
+                  href="https://github.com/AmrutaDeshpande1991"
                   target="_blank"
                   class="text-primary"
                 >
-                  github.com/deshpandeamruta1991
+                  github.com/AmrutaDeshpande1991
                 </a>
               </span>
             </p>
