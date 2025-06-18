@@ -5,12 +5,10 @@
   >
     <v-container>
       <v-row align="center" justify="space-between">
-        <!-- Left: Copyright -->
         <v-col cols="12" md="6" class="text-sm-left mb-2 mb-md-0">
           <span>&copy; {{ new Date().getFullYear() }} Vue Recipes</span>
         </v-col>
 
-        <!-- Right: Social / Contact Icons -->
         <v-col cols="12" md="6" class="text-sm-right">
           <v-btn
             icon
