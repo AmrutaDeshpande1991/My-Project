@@ -1,6 +1,8 @@
 <template>
   <v-app>
-    <v-icon>mdi-home</v-icon>
-    
+    <AboutPage />
   </v-app>
 </template>
+<script setup>
+import AboutPage from "../components/AboutPage.vue";
+</script>
